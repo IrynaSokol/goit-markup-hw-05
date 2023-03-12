@@ -80,7 +80,7 @@ align-items: center;
     bottom: 0;
     background: var(--accent-color-portfolio);
     border-radius: 2px;
-    bottom: -1px;
+    bottom: -3px;
 
 }
 
@@ -265,6 +265,7 @@ margin-bottom: 72px;
     column-gap: 24px;
     row-gap: 48px;
     text-decoration: none;
+    border-top: none;
 
 }
 
@@ -296,6 +297,8 @@ text-decoration: none;
 .menu-portfolio-img{
 position: relative;
 overflow: hidden;
+border-bottom: none;
+text-decoration: none;
 }
 
 
@@ -306,6 +309,8 @@ overflow: hidden;
     padding-right: 16px;
     border: 1px solid var(--footer-logo-color);
     border-top: none;
+    
+ 
 }
 
 .nav-btn{
@@ -327,6 +332,7 @@ overflow: hidden;
     padding-right: 24px;
     border: 1px solid var(--footer-logo-color);
     border-radius: 4px;
+    transition: transform var(--transition-dur-and-func);
 }
 .nav-btn:hover,
 .nav-btn:focus {

@@ -64,6 +64,11 @@ align-items: center;
     padding: 24px 0;
 }
 
+.menu-link:focus,
+.menu-link:hover{
+    fill:var(--accent-color-portfolio);
+}
+
 .current{
     color: var(--accent-color-portfolio);
     margin-top: 24px 0;
@@ -332,7 +337,7 @@ text-decoration: none;
     padding-right: 24px;
     border: 1px solid var(--footer-logo-color);
     border-radius: 4px;
-    transition: transform var(--transition-dur-and-func);
+ 
 }
 .nav-btn:hover,
 .nav-btn:focus {

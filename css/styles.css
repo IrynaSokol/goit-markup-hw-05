@@ -229,12 +229,12 @@ color: var(--accent-color);
     margin: 0 auto;
     border: 1px solid var(--accent-color);
     border-radius: 4px;
-    transition: color var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .modal-btn:hover,
 .modal-btn:focus {
-    background: var(--accent-color-portfolio);
+    background-color: var(--accent-color-portfolio);
     color: var(--main-white-color);
 }
 
@@ -258,11 +258,6 @@ margin-bottom: 72px;
     margin-right: 24px;
 }
 
-.nav-btn:hover,
-.nav-btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    border-color: var(--accent-color-portfolio);
-}
 
 .menu-portfolio{
     display: flex;
@@ -337,12 +332,15 @@ text-decoration: none;
     padding-right: 24px;
     border: 1px solid var(--footer-logo-color);
     border-radius: 4px;
+    transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
  
 }
 .nav-btn:hover,
 .nav-btn:focus {
     background-color: var(--accent-color-portfolio);
     color: var(--main-white-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-color: var(--accent-color-portfolio);
 }
 
 .galary-header{

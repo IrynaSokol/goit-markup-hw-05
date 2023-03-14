@@ -70,26 +70,6 @@ align-items: center;
 
 }
 
-.current{
-    color: var(--accent-color-portfolio);
-    margin-top: 24px 0;
-    position: relative;
-}
-
-.current::after{
-    display: block;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    left: 0;
-    bottom: 0;
-    background-color: var(--accent-color-portfolio);
-    border-radius: 2px;
-    bottom: -3px;
-
-}
-
 .menu-contact{
 display: flex;
 align-items: center;
@@ -154,6 +134,27 @@ body{
         padding-bottom: 24px;
         transition: color var(--transition-dur-and-func);
 }
+
+.current {
+    color: var(--accent-color-portfolio);
+    position: relative;
+}
+
+.current::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--accent-color-portfolio);
+    border-radius: 2px;
+    bottom: -3px;
+
+}
+
+
 .menu-link:hover,
 .menu-link:focus {
     color: var(--accent-color);
@@ -286,6 +287,7 @@ text-decoration: none;
 .menu-portfolio-link{
 display: block;
 text-decoration: none;
+transition: box-shadow var(--transition-dur-and-func);
 
 }
 

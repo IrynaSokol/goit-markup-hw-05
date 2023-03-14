@@ -67,6 +67,7 @@ align-items: center;
 .menu-link:focus,
 .menu-link:hover{
     fill:var(--accent-color-portfolio);
+
 }
 
 .current{
@@ -332,7 +333,7 @@ text-decoration: none;
     padding-right: 24px;
     border: 1px solid var(--footer-logo-color);
     border-radius: 4px;
-    transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func);
+    transition: background-color var(--transition-dur-and-func), box-shadow var(--transition-dur-and-func), border-color var(--transition-dur-and-func);
  
 }
 .nav-btn:hover,
@@ -576,6 +577,7 @@ text-decoration: none;
 
 .customers-list-icon {
 fill: currentColor;
+
 }
 
 

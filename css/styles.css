@@ -84,7 +84,7 @@ align-items: center;
     height: 4px;
     left: 0;
     bottom: 0;
-    background: var(--accent-color-portfolio);
+    background-color: var(--accent-color-portfolio);
     border-radius: 2px;
     bottom: -3px;
 

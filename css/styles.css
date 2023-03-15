@@ -566,7 +566,7 @@ text-decoration: none;
     border: 1px solid var(--customers-color);
     border-radius: 4px;
     color: var(--customers-color);
-    transition: color var(--transition-dur-and-func);
+    transition: color var(--transition-dur-and-func), border var(--transition-dur-and-func);
 }
 
 
